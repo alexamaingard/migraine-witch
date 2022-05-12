@@ -9,3 +9,9 @@ The main functionality of the app is to help you keep track of your migraine att
 ## ERD
 
 ![ERD](./assets/ERD.png)
+
+## How to Use
+
+1. Run `npm install`
+2. Run `npm run build`
+3. Run `npm start`
