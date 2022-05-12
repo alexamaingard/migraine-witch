@@ -22,8 +22,7 @@ app.use(ROUTES.ATTACK, attackRouter);
 app.use('/', express.static('./client/build'));
 
 const port = process.env.PORT || 4000;
-const url = process.env.REACT_APP_API_URL;
 
 app.listen(port, () => {
-    console.log(`\n Server is running on ${url}\n`);
+    console.log(`\n Server is running on http://localhost:${port}\n`);
 });

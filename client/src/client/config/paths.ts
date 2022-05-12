@@ -7,10 +7,12 @@ export const LOCAL = {
     RECORD_ATTACK: '/recordAttack'
 }
 
+const URL = process.env.REACT_APP_API_URL || '/';
+
 export const DATABASE = {
-    ATTACK: `${process.env.REACT_APP_API_URL}attack/`,
+    ATTACK: `${URL}attack/`,
     USER: {
-        LOGIN: `${process.env.REACT_APP_API_URL}user/login`,
-        REGISTER: `${process.env.REACT_APP_API_URL}user/register`,
+        LOGIN: `${URL}user/login`,
+        REGISTER: `${URL}user/register`,
     } 
 }

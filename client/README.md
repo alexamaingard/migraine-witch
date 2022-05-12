@@ -4,8 +4,7 @@ Website App built in React/TypeScript using an Express server. Built in ≈ 9 da
 
 The main functionality of the app is to help you keep track of your migraine attacks.
 
-![App Gif](./assets/migraine-witch.gif)
+## How to Use
 
-## ERD
-
-![ERD](./assets/ERD.png)
+1. Run `npm install`
+2. Run `npm start`
