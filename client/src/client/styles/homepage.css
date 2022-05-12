@@ -10,10 +10,11 @@
 }
 
 .landing-page {
-    height: calc(85vh - var(--header-height));
+    height: 1000px;
     width: 100vw;
     /* background-color: var(--grey); */
     padding-top: var(--page-gap);
+    padding-bottom: var(--page-gap);
 }
 
 .landing-container {
@@ -69,6 +70,7 @@
 }
 
 .homepage-info {
+    height: fit-content;
     padding: var(--page-gap) 5vw;
     display: flex;
     gap: var(--inner-gap);
