@@ -20,10 +20,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#environment
-.env
 
-#migrations
-./prisma/migrations
-
-/dist
+./src/client/config/emailJS

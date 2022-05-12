@@ -19,9 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(ROUTES.USER, userRouter);
 app.use(ROUTES.ATTACK, attackRouter);
 
-app.get('*', (req, res) => {
-    res.json({ ok: true });
-});
+app.use('/', express.static('./client/build'));
 
 const port = process.env.PORT || 4000;
 const url = process.env.REACT_APP_API_URL;

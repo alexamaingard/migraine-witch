@@ -1,0 +1,40 @@
+.header {
+    height: var(--header-height);
+    padding: 10px 20px;
+    background-color: var(--dark-bgc);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    width: 20vw;
+}
+
+#logo {
+    width: 95px;
+    height: 75px;
+}
+
+.header-right {
+    color: white;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right ul {
+    display: flex;
+    padding-left: 0;
+    gap: 20px;
+}
+
+.header-right a {
+    font-weight: bold;
+    color: white;
+}
+
+.header-right li {
+    height: fit-content;
+    padding: 5px;
+}

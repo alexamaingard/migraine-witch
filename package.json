@@ -2,7 +2,7 @@
   "name": "migraine-witch-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@emailjs/browser": "^3.6.2",
@@ -36,7 +36,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --exec ts-node src/index.ts",
-    "start": "node ./dist/src/index.js"
+    "start": "node ./dist/index.js",
+    "postinstall": "npm --prefix client install",
+    "prebuild": "npm --prefix client run build"
   },
   "repository": {
     "type": "git",
