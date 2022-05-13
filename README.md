@@ -23,3 +23,6 @@ SECRET="yourSecretOfChoice"
 1. Run `npm install`
 2. Run `npm run build`
 3. Run `npm start`
+
+### Extra Comments
+You can find the entire progress and commit history of this repo at https://github.com/alexamaingard/migraine-witch-final-project
